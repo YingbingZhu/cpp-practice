@@ -4,3 +4,9 @@ project(cpp_practice)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(cpp_practice main.cpp)
+
+add_subdirectory(memory-management/dynamic-array)
+
+# Add tests
+enable_testing()
+add_subdirectory(tests)
