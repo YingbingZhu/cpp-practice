@@ -6,6 +6,7 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(cpp_practice main.cpp)
 
 add_subdirectory(memory-management/dynamic-array)
+add_subdirectory(data-structures/linked-list)
 
 # Add tests
 enable_testing()
