@@ -7,6 +7,7 @@ add_executable(cpp_practice main.cpp)
 
 add_subdirectory(memory-management/dynamic-array)
 add_subdirectory(data-structures/linked-list)
+add_subdirectory(memory-management/pointers)
 
 # Add tests
 enable_testing()
